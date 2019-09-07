@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <!-- head-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex,follow">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="keywords" content="GINZA,DAIMARU,MATSUZAKAYA">
+    <meta name="description" content="銀座6丁目【GINZA SIX】2階の吹き抜け空間下の150坪のロケーションに、大丸松坂屋百貨店がコンセプトストア【SIXIEME GINZA（シジェーム ギンザ）】">
+    <title><?php bloginfo('name'); ?></title>
+    <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/img/common/favicon.ico">
+    <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/assets/img/common/icon-sp.png" sizes="180x180">
+    <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/assets/img/common/icon-sp.png" sizes="192x192">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/slick/slick-theme.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/slick/slick.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css">
+  <?php wp_head(); ?>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container result" id="top-wrapper">
+        <!-- gnav-->
+        <header>
+          <div class="inner clearfix">
+            <h1 class="header-logo"><a href="<?php echo home_url( '/' ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/common/top-logo.png" width="110px" alt=""></a></h1>
+            <div id="nav_toggle">
+              <div class="nav_toggle-block"><span class="nav_toggle-item"></span><span class="nav_toggle-item"></span><span class="nav_toggle-item"></span></div>
+            </div>
+            <nav>
+              <ul class="gnav-item gnav-item-sp">
+              <?php wp_nav_menu( array(
+                'theme_location'=>'mainmenu',
+                'container'     =>'',
+                'menu_class'    =>'',
+                'items_wrap'    =>'<ul class="gnav-content-item">%3$s</ul>'));
+              ?>
+                <li class="gnav-item">
+                  <hr class="gnav-access">
+                </li>
+                <li><a class="gnav-link-fb link-gold" href="https://www.facebook.com/" target="_blank"></a></li>
+                <li><a class="gnav-link-ig link-gold" href="https://www.instagram.com/" target="_blank"></a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
