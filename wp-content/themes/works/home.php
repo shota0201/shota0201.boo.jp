@@ -1,6 +1,6 @@
   <?php get_header(); ?>
 
-  <!-- slider-->
+  <!-- slider -->
   <ul class="js-slider">
     <?php $header_images = get_uploaded_header_images(); ?>
     <?php foreach ($header_images as $key => $value): ?>
@@ -18,9 +18,9 @@
     <?php endforeach; ?>
   </ul>
 
-  <div class="wrapper-sp">
-    <!-- event-->
-    <div class="event-wrap js-fadein">
+  <div class="wrapper-content">
+    <!-- event -->
+    <section class="event-wrap js-fadein">
       <div class="event-block event-block-sp" id="ABOUT">
         <h2 class="event-ttl">INTRODUCTION</h2>
         <div class="event-img"><a href="/category/introduction/"><img class="logo-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/common/top-magazine.jpg" alt=""></a></div>
@@ -39,9 +39,9 @@
           <p class="event-textBlock-name">サブタイトル</p>
         </div>
       </div>
-    </div>
-    <!-- news-->
-    <div class="news-wrap js-fadein" id="news">
+    </section>
+    <!-- news -->
+    <section class="news-wrap js-fadein" id="news">
       <h2 class="news-ttl">NEWS<span class="news-ttl-sub">最新情報</span></h2>
       <ul class="news-area">
         <?php if(have_posts()): while(have_posts()): the_post(); ?>
@@ -68,7 +68,7 @@
           </li>
         <?php endwhile; endif; ?>
       </ul>
-    </div>
+    </section>
   </div>
 
 <?php get_footer(); ?>

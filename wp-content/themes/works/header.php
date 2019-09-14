@@ -26,9 +26,15 @@
         <!-- gnav-->
         <header>
           <div class="inner clearfix">
-            <h1 class="header-logo"><a href="<?php echo home_url( '/' ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/common/top-logo.png" width="110px" alt=""></a></h1>
+            <h1 class="header-logo">
+              <?php the_custom_logo(); ?>
+            </h1>
             <div id="nav_toggle">
-              <div class="nav_toggle-block"><span class="nav_toggle-item"></span><span class="nav_toggle-item"></span><span class="nav_toggle-item"></span></div>
+              <div class="nav_toggle-block">
+                <span class="nav_toggle-item"></span>
+                <span class="nav_toggle-item"></span>
+                <span class="nav_toggle-item"></span>
+              </div>
             </div>
             <nav>
               <ul class="gnav-item gnav-item-sp">
