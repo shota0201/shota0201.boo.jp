@@ -37,7 +37,7 @@ add_filter('walker_nav_menu_start_el', 'add_class_on_link', 10, 4);
 
 //liタグのクラスを削除
 // クラスを削除して、表示中メニューに 'current' クラスを付与する
-add_filter( 'nav_menu_css_class', 'remove_to_currentClass', 10, 2 );
+/*add_filter( 'nav_menu_css_class', 'remove_to_currentClass', 10, 2 );
 function remove_to_currentClass( $classes, $item ) {
     $classes = array();
     if( $item -> current == true ) {
@@ -45,7 +45,7 @@ function remove_to_currentClass( $classes, $item ) {
     }
     return $classes;
 }
-
+*/
 // ID を削除する
 add_filter('nav_menu_item_id', 'removeId', 10);
 function removeId( $id ){

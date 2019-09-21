@@ -47,8 +47,21 @@
                 <li class="gnav-item">
                   <hr class="gnav-access">
                 </li>
-                <li><a class="gnav-link-fb link-gold" href="https://www.facebook.com/" target="_blank"></a></li>
-                <li><a class="gnav-link-ig link-gold" href="https://www.instagram.com/" target="_blank"></a></li>
+                <li class="gnav-item">
+                  <a class="gnav-link-tw" href="https://https://twitter.com" target="_blank">
+                    <i class="fab gnav-link-icon-tw"></i>
+                  </a>
+                </li>
+                <li class="gnav-item">
+                  <a class="gnav-link-fb" href="https://www.facebook.com" target="_blank">
+                    <i class="fab gnav-link-icon-fb"></i>
+                  </a>
+                </li>
+                <li class="gnav-item gnav-item-ig">
+                  <a class="gnav-link-ig" href="https://www.instagram.com" target="_blank">
+                    <i class="fab gnav-link-icon-ig"></i>
+                  </a>
+                </li>
               </ul>
             </nav>
           </div>
