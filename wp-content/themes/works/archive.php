@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
-  <div class="wrapper-sp wrapper-sp-category">
+  <div class="wrapper-category wrapper-sp wrapper-sp-category">
     <!-- news-->
-    <div class="news-wrap js-fadein" id="news">
+    <div class="news-wrap" id="news">
       <h2 class="news-ttl">
        <?php single_cat_title(); ?>
        <span class="news-ttl-sub">最新情報</span>

@@ -30,7 +30,7 @@
                 </p>
                 <p class="gnav-item-sns footer-item-sns gnav-item-ig">
                   <a class="gnav-link-ig" href="https://www.instagram.com" target="_blank">
-                    <i class="fab gnav-link-icon-ig"></i>
+                    <i class="fab gnav-link-icon-ig icon-ig-footer"></i>
                   </a>
                 </p>
               </div>

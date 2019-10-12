@@ -55,7 +55,7 @@ position: relative;
 
 .container {
 max-width: 1200px;
-margin: 0 auto 100px;
+margin: 0 auto 50px;
 overflow: hidden;
 }
 
@@ -347,11 +347,11 @@ max-width: none;
 }
 
 .menu-item {
-margin: 0 10px 0 0;
+margin: 0 15px 0 0;
 }
 
 .gnav-item-sns {
-margin: 0 0 0 10px;
+margin: 0 0 0 15px;
 }
 
 /*slider*/
@@ -421,6 +421,10 @@ font-size: 18px;
 margin-bottom: 20px;
 }
 
+.wrapper-category {
+padding: 0 10px;
+}
+
 .news-textBlock-text {
 font-size: 13px;
 }
@@ -473,6 +477,25 @@ color: #555;
 
 .fa-chevron-circle-up:before {
 color: #a5854a;
+}
+
+/* contact */
+.contact-ttl {
+font-size: 18px;
+margin-bottom: 20px;
+text-align: center;
+}
+
+.contact-ttl-sub {
+font-size: 11px;
+margin-left: 10px;
+}
+
+section#contact {
+border-top: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+padding: 20px 0 0 0;
+margin-bottom: 40px;
 }
 
 /*footer*/
@@ -578,9 +601,9 @@ margin-bottom: 20px;
 font-size: 1.2rem;
 }
 
-.gnav-link-icon-ig:before {
-width: 30px;
-height: 30px;
+.icon-ig-footer:before {
+width: 35px;
+height: 35px;
 }
 
 /*子ページ*/
@@ -872,8 +895,12 @@ padding: 0 10px;
   }
 
   .wpcf7 {
-  margin: 120px auto 0!important;
+  margin: 100px auto 0!important;
   width: 80%;
+  }
+
+  .wpcf7-home {
+  margin: 30px auto 0!important;
   }
 
   .wpcf7-response-output {
@@ -885,10 +912,6 @@ padding: 0 10px;
   }
 
   .gnav-block {
-  display: none;
-  }
-
-  .gnav-item li:nth-last-child(5) {
   display: none;
   }
 
