@@ -42,22 +42,22 @@
                 'theme_location'=>'mainmenu',
                 'container'     =>'',
                 'menu_class'    =>'',
-                'items_wrap'    =>'<ul class="gnav-content-item">%3$s</ul>'));
+                'items_wrap'    =>'%3$s'));
               ?>
-                <li class="gnav-item">
+                <li class="gnav-item-boder">
                   <hr class="gnav-access">
                 </li>
-                <li class="gnav-item">
+                <li class="gnav-item-sns">
                   <a class="gnav-link-tw" href="https://https://twitter.com" target="_blank">
                     <i class="fab gnav-link-icon-tw"></i>
                   </a>
                 </li>
-                <li class="gnav-item">
+                <li class="gnav-item-sns">
                   <a class="gnav-link-fb" href="https://www.facebook.com" target="_blank">
                     <i class="fab gnav-link-icon-fb"></i>
                   </a>
                 </li>
-                <li class="gnav-item gnav-item-ig">
+                <li class="gnav-item-sns gnav-item-ig">
                   <a class="gnav-link-ig" href="https://www.instagram.com" target="_blank">
                     <i class="fab gnav-link-icon-ig"></i>
                   </a>

@@ -5,21 +5,39 @@
       <footer class="footer-wrap">
         <div class="footer-block">
           <div class="footer-textBlock">
-            <div class="footer-logo"><a href="<?php echo home_url( '/' ); ?>"><img class="logo-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/common/top-logo-footer.png" width="110px" alt=""></a></div>
+            <div class="footer-logo"><?php the_custom_logo(); ?></div>
             <div class="footer-textArea">
-              <p class="footer-ttl">シジェーム ギンザ</p>
-              <p class="footer-text">東京都中央区銀座6丁目10番1号 GINZA SIX 2F中央</p>
-              <p class="footer-text">OPEN 10:30～20:30</p>
-              <p class="footer-text">Tell : <a class="tell-link" href="tell:03-6263-9866">03-6263-9866</a><span class="footer-mail">Mail : sixieme@jfr.co.jp</span></p>
+              <p class="footer-ttl">Shota Hashizume</p>
+              <div class="footer-text-contact-block">
+                <p class="footer-text">Tokyo Japan</p>
+                <p class="footer-text footer-text-contact">
+                  Tell : <a class="tell-link" href="tell:03-6263-9866">090-2328-2898</a>
+                </p>
+                <p class="footer-text footer-text-contact">
+                  Mail : <a href="mailto:shota1347&#64;gmail.com" class="footer-mail-link">shota1347@gmail.com</a>
+                </p>
+              </div>
+              <div class="footer-text-sns">
+                <p class="gnav-item-sns footer-item-sns">
+                  <a class="gnav-link-tw" href="https://https://twitter.com" target="_blank">
+                    <i class="fab gnav-link-icon-tw"></i>
+                  </a>
+                </p>
+                <p class="gnav-item-sns footer-item-sns gnav-item-fb">
+                  <a class="gnav-link-fb" href="https://www.facebook.com" target="_blank">
+                    <i class="fab gnav-link-icon-fb"></i>
+                  </a>
+                </p>
+                <p class="gnav-item-sns footer-item-sns gnav-item-ig">
+                  <a class="gnav-link-ig" href="https://www.instagram.com" target="_blank">
+                    <i class="fab gnav-link-icon-ig"></i>
+                  </a>
+                </p>
+              </div>
+              <div class="footer-footer-LinkWrap">
+                <small class="footer-copy">Copyright &copy; Shota Hashizume. All Rights Reserved.</small>
+              </div>
             </div>
-          </div>
-          <div class="footer-footer-LinkWrap">
-            <ul class="footer-linkBlock">
-              <li class="footer-link-text footer-link-boder"><a class="footer-link" href="#">お問い合わせ</a></li>
-              <li class="footer-link-text footer-link-boder"><a class="footer-link" href="#">お客様の個人情報の取扱いについて</a></li>
-              <li class="footer-link-text footer-link-boder"><a class="footer-link" href="#">大丸・松坂屋ホームページのプライバシーポリシー</a></li>
-              <li class="footer-link-text footer-link-en"><a class="footer-link" href="#">GINZA SIX</a></li>
-            </ul><small class="footer-copy">Copyright &copy; SIXIÈME GINZA. All Rights Reserved.</small>
           </div>
         </div>
       </footer>

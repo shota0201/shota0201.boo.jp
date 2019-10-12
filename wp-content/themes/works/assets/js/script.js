@@ -43,7 +43,7 @@ $(window).on('load', function() {
 /* スムーススクロール */
 $(function(){
 
-// ボタンの要素を指定します。ここでは「.js-topBtn」を指定
+// ボタンの要素を指定 ここでは「.js-topBtn」を指定
  var $btn = $('.js-topBtn');
  var isHidden = true;
 
@@ -52,9 +52,9 @@ $(function(){
    $(window).scroll(function () {
 
 // 2100pxスクロールした時点でフェードイン表示する
- if( $(this).scrollTop() >1800 ) {
+ if( $(this).scrollTop() >1000 ) {
      if( isHidden ) {
-         $btn.stop(true,true).fadeIn(200);
+         $btn.stop(true,true).fadeIn(50);
          isHidden = false;
      }
  } else {

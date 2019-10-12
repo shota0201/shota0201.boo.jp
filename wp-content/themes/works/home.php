@@ -9,10 +9,10 @@
     <li>
       <?php if($img_meta->post_content): ?>
         <a class="slider-link" href="<?php echo esc_html($img_meta->post_content); ?>">
-      <?php endif; ?>
-        <img src="<?php echo $value['url']; ?>" alt="<?php echo esc_html($img_meta->post_title); ?>">
-      <?php if($img_meta->post_content): ?>
-      </a>
+          <?php endif; ?>
+            <img src="<?php echo $value['url']; ?>" alt="<?php echo esc_html($img_meta->post_title); ?>">
+          <?php if($img_meta->post_content): ?>
+        </a>
       <?php endif; ?>
     </li>
     <?php endforeach; ?>
