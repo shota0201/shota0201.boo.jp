@@ -91,7 +91,7 @@
           <span class="wpcf7-form-control-wrap your-subject"><input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false"></span> </label></p>
           <p><label>Message<br>
           <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </label></p>
-          <p><input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit"></p>
+          <p class="input-block"><input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit"></p>
           <div class="wpcf7-response-output wpcf7-display-none"></div>
         </form>
       </div>
