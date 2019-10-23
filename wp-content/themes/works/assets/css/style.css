@@ -18,7 +18,7 @@ font-family: "AdobeGaramondW01-Regula", Garamond, "本明朝-M 新がな", "ヒ�
 line-height: 1.6;
 letter-spacing: 0;
 color: #000;
-font-size: 16px;
+font-size: 1.6rem;
 }
 
 a {
@@ -74,14 +74,16 @@ position: fixed;
 margin-right: 10px;
 }
 
-/* contact form */
+.wpcf7-home {
+width: 500px;
+margin: 0 auto!important;
+}
+
 /* 必須マーク */
-.must{
-color: #fff;
-margin-right: 10px;
-padding: 6px 10px;
-background: #F92931;
-border-radius: 20px;
+.must {
+color: #f2545b;
+font-size: 1.2rem;
+padding-left: 3px;
 }
 
 /* 任意マーク */
@@ -102,6 +104,7 @@ font-weight: 600;
 input.wpcf7-form-control.wpcf7-text,
 textarea.wpcf7-form-control.wpcf7-textarea {
 width: 100%;
+max-width: 100%;
 padding: 8px 15px;
 margin-right: 10px;
 margin-top: 10px;
@@ -121,18 +124,7 @@ background-color: #ffe6e7;
 
 /* 送信ボタンを見やすくする */
 .wpcf7 input[type="submit"] {
-/* width:100%;
-padding:15px;
-border-radius:0px;
--webkit-border-radius: 0px;
--moz-border-radius: 0px;
-border: none;
-background: #a5854a;
-color: #fff; */
-}
-
-.send-block {
-width:100%;
+ width:100%;
 padding:15px;
 border-radius:0px;
 -webkit-border-radius: 0px;
@@ -140,6 +132,19 @@ border-radius:0px;
 border: none;
 background: #a5854a;
 color: #fff;
+border-radius: 50px;
+}
+
+.contact-btn-wrap .contact-btn:hover {
+background-color: #fff;
+color: #a5854a;
+opacity: 1;
+text-decoration: none;
+-webkit-transition: all .25s ease-in-out;
+-moz-transition: all .25s ease-in-out;
+-ms-transition: all .25s ease-in-out;
+-o-transition: all .25s ease-in-out;
+transition: all .25s ease-in-out;
 }
 
 /* エラーメッセージを見やすくする */
@@ -147,6 +152,7 @@ span.wpcf7-not-valid-tip,
 .wpcf7-response-output.wpcf7-validation-errors {
 color: red;
 font-weight: 600;
+text-align: center;
 }
 
 .wpcf7 {
@@ -165,8 +171,43 @@ padding: 0!important;
 border: none!important;
 }
 
-.contact-note {
-color: #f2545b;
+.contact-btn-wrap {
+padding: 20px 0;
+margin-bottom: 0;
+}
+
+.c-btn-wrap {
+text-align: center;
+}
+
+.contact-btn-wrap .contact-btn {
+border: 1px solid #a5854a;
+background-color: #a5854a;
+outline: none;
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+cursor: pointer;
+font-family: "AdobeGaramondW01-Regula", Garamond, "本明朝-M 新がな", "ヒラギノ明朝 ProN W3", "HiraMinProN-W3", YuMincho, "游明朝", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+}
+
+.contact-btn-wrap .contact-btn {
+display: block;
+width: 100%;
+max-width: 340px;
+padding: 18px 5px;
+margin: 0 auto;
+color: #fff;
+font-size: 1.6rem;
+font-weight: 700;
+text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .c-btn-wrap {
+  margin-bottom: 15px;
+  text-align: center;
+  }
 }
 
 /*gnav*/
@@ -349,7 +390,7 @@ text-decoration: none;
 border: 1px solid #fff;
 text-align: center;
 padding: 25px 0;
-font-size: 20px;
+font-size: 2.0rem;
 margin-top: 40px;
 }
 
@@ -373,7 +414,7 @@ margin-bottom: 70px !important;
 }
 
 .slick-dots li button:before {
-font-size: 23px !important;
+font-size: 2.3rem !important;
 }
 
 /* wrapper-content */
@@ -384,7 +425,7 @@ padding: 0 10px;
 /*event*/
 .event-ttl {
 margin-bottom: 20px;
-font-size: 18px;
+font-size: 1.8rem;
 }
 
 .event-img {
@@ -393,7 +434,7 @@ margin-bottom: 20px;
 
 .event-textBlock-date {
 margin-bottom: 5px;
-font-size: 13px;
+font-size: 1.3rem;
 }
 
 .event-textBlock-ttl {
@@ -402,11 +443,11 @@ color: #a28449;
 }
 
 .event-textBlock-lead {
-font-size: 17px;
+font-size: 1.7rem;
 }
 
 .event-textBlock-name {
-font-size: 12px;
+font-size: 1.2rem;
 }
 
 .event-wrap {
@@ -425,12 +466,12 @@ width: calc((100% - 50px) / 2);
 
 /*news*/
 .news-ttl-sub {
-font-size: 11px;
+font-size: 1.1rem;
 margin-left: 10px;
 }
 
 .news-ttl {
-font-size: 18px;
+font-size: 1.8rem;
 margin-bottom: 20px;
 }
 
@@ -439,11 +480,11 @@ padding: 0 10px;
 }
 
 .news-textBlock-text {
-font-size: 13px;
+font-size: 1.3rem;
 }
 
 .news-textBlock-date {
-font-size: 13px;
+font-size: 1.3rem;
 margin-bottom: 5px;
 }
 
@@ -494,20 +535,20 @@ color: #a5854a;
 
 /* contact */
 .contact-ttl {
-font-size: 18px;
+font-size: 1.8rem;
 margin-bottom: 20px;
 text-align: center;
 }
 
 .contact-ttl-sub {
-font-size: 11px;
+font-size: 1.1rem;
 margin-left: 10px;
 }
 
 section#contact {
 border-top: 1px solid #ccc;
 border-bottom: 1px solid #ccc;
-padding: 20px 0 0 0;
+padding: 40px 0;
 margin-bottom: 40px;
 }
 
@@ -533,7 +574,7 @@ display: -webkit-box;
 display: -ms-flexbox;
 display: flex;
 color: #fff;
-font-size: 12px;
+font-size: 1.2rem;
 }
 
 .footer-link-boder {
@@ -626,7 +667,7 @@ margin: 50px 0 50px 0;
 }
 
 .lower-mainttl {
-font-size: 20px;
+font-size: 2.0rem;
 color: #a28349;
 margin-bottom: 30px;
 line-height: 1.2;
@@ -642,7 +683,7 @@ margin-bottom: 10px;
 }
 
 .column01-mainttl {
-font-size: 20px;
+font-size: 2.0rem;
 color: #a28349;
 margin-bottom: 10px;
 line-height: 1.2;
@@ -674,7 +715,7 @@ margin-bottom: 10px;
 }
 
 .column02-mainttl {
-font-size: 20px;
+font-size: 2.0rem;
 color: #a28349;
 margin-bottom: 10px;
 line-height: 1.2;
@@ -713,7 +754,7 @@ margin-bottom: 10px;
 }
 
 .column04-mainttl {
-font-size: 20px;
+font-size: 2.0rem;
 color: #a28349;
 margin-bottom: 10px;
 line-height: 1.2;
@@ -759,13 +800,13 @@ padding: 0 10px;
   -ms-flex-align: center;
   align-items: center;
   color: #555;
-  font-size: 13px;
+  font-size: 1.3rem;
   }
 
   .gnav-item {
   margin: 0 15px;
   color: #555;
-  font-size: 13px;
+  font-size: 1.3rem;
   }
 
   .lower-mv {
@@ -866,7 +907,7 @@ padding: 0 10px;
 
   .footer-linkBlock {
   display: block;
-  font-size: 18rem;
+  font-size: 1.8rem;
   margin-bottom: 30px;
   }
 
@@ -908,12 +949,13 @@ padding: 0 10px;
   }
 
   .wpcf7 {
-  margin: 100px auto 0!important;
+  margin: 100px auto 50px!important;
   width: 80%;
   }
 
   .wpcf7-home {
-  margin: 30px auto 0!important;
+    margin: 0;
+    width: 80%;
   }
 
   .wpcf7-response-output {
@@ -1197,7 +1239,7 @@ padding: 0 10px;
 /*320px以下*/
 @media screen and (max-width: 320px) {
   header nav ul {
-  font-size: 11px;
+  font-size: 1.1rem;
   }
 
   header nav ul li a {
